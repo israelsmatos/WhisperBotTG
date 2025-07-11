@@ -133,7 +133,7 @@ def setup_handlers(dispatcher: Dispatcher):
 
 
 if __name__ == '__main__':
-    app = Bot('5959656397:AAE8SY1yOFzhzmz9wg8WeLh9ToPubKpyu7I')
+    app = Bot('') # INSERT TOKEN
     dp = Dispatcher(app)
     setup_handlers(dp)
     executor.start_polling(dp, skip_updates=True)
